@@ -8,3 +8,5 @@
 ### Comparison
 
 ![fontExample](./images/comparison.jpg)
+
+![fontExample](https://github.com/NMSCD/About/raw/master/banner/current-small.png)
