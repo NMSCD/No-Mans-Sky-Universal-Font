@@ -12,7 +12,7 @@ As far as we have observed, there have been two fonts that carries the iconic NM
 
 
 ### Using the fonts on your site
-Thanks to Github Pages, the fonts are readily available to integrate into your sites by simply importing the relevant CSS files into them. It has the added advantage of fetching only the latest and greatest versions of the font files.
+Thanks to Github Pages, the fonts are readily available to integrate into your sites by simply importing the relevant CSS files into them. It has the added advantage of fetching only the latest and greatest versions of the font files. The `font-family` names are mentioned below.<br>**NOTE:** Only use CSS `@import` statements, not inline stylesheet links in your html files. The CSS imports correctly fetch the fontfiles relative to the CSS file path, whereas a html link will not.
 
 ```css
 /* font-family name: NMSFuturaProBook */
