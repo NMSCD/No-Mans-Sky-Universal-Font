@@ -16,10 +16,10 @@ Thanks to Github Pages, the fonts are readily available to be integrated into yo
 
 ```css
 /* font-family: NMSFuturaProBook */
-@import url('https://nmscd.github.io/No-Mans-Sky-Universal-Font/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.css');
+@import url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.css');
 
 /* font-family: NMSGeoSans */
-@import url('https://nmscd.github.io/No-Mans-Sky-Universal-Font/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.css');
+@import url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.css');
 
 ```
 ![NMSCD-Banner](https://github.com/NMSCD/About/raw/master/banner/current-small.png)
