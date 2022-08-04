@@ -44,3 +44,21 @@ body.futuraprobook {
 body.geosans {
     font-family: 'NMSGeoSans';
 }
+
+
+/* font-family: NMS Alphabet */
+@font-face {
+    font-family: 'NMS Alphabet';
+    src: url('https://alphabet.nmscd.com/assets/font/nms-alphabet.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body.expalphabet {
+    font-family: 'NMS Alphabet';
+}
+	
+body.expalphabet .no-exp-font {
+    font-family: 'NMSFuturaProBook';
+}

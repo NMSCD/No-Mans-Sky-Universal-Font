@@ -36,12 +36,13 @@
 			<h1 class="title">How to use the font</h1>
 			<div class="tabs">
 				<ul>
-					<li id="futuraprobook-tab" class="is-active"><a href="#" onclick="futuraprobookClick(event)">FuturaProBook</a></li>
-					<li id="geosans-tab"><a href="#" onclick="geosansClick(event)">GeoSans</a></li>
+					<li id="futuraprobook-tab" class="no-exp-font is-active"><a href="#" onclick="futuraprobookClick(event)">FuturaProBook</a></li>
+					<li id="geosans-tab" class="no-exp-font"><a href="#" onclick="geosansClick(event)">GeoSans</a></li>
+					<li id="expalphabet-tab"><a href="#" onclick="expalphabetClick(event)">Expedition Alphabet</a></li>
 				</ul>
 			</div>
-			<p>Add the following lines of CSS:</p>
 			<div id="futuraprobook-tab-content" class="tab-content">
+				<p>Add the following lines of CSS:</p>
 				<pre><code class="language-css">@font-face {
     font-family: 'NMSFuturaProBook';
     src: url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.eot');
@@ -59,6 +60,7 @@
 }</code></pre>
 			</div>
 			<div id="geosans-tab-content" class="tab-content hidden">
+				<p>Add the following lines of CSS:</p>
 				<pre><code class="language-css">@font-face {
     font-family: 'NMSGeoSans';
     src: url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.eot');
@@ -74,6 +76,9 @@
 * {
     font-family: 'NMSGeoSans';
 }</code></pre>
+			</div>
+			<div id="expalphabet-tab-content" class="tab-content has-text-centered hidden">
+				<p class="subtitle no-exp-font">More info on how to use this font at <a href="https://alphabet.nmscd.com" target="_blank" rel="noopener noreferrer">alphabet.nmscd.com</a></p>
 			</div>
 		</section>
 		

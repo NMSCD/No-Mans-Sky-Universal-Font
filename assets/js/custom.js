@@ -2,16 +2,23 @@ hljs.highlightAll();
 
 function futuraprobookClick(e) {
 	e?.preventDefault?.();
-	setTabActive('futuraprobook');
-	setTabContentVisible('futuraprobook');
-	setBodyClass('futuraprobook');
+	tabClickCommon(e, 'futuraprobook');
 }
 
 function geosansClick(e) {
 	e?.preventDefault?.();
-	setTabActive('geosans');
-	setTabContentVisible('geosans');
-	setBodyClass('geosans');
+	tabClickCommon(e, 'geosans');
+}
+
+function expalphabetClick(e) {
+	e?.preventDefault?.();
+	tabClickCommon(e, 'expalphabet');
+}
+
+function tabClickCommon(e, prefix) {
+	setTabActive(prefix);
+	setTabContentVisible(prefix);
+	setBodyClass(prefix);
 }
 
 function setTabActive(prefix) {
