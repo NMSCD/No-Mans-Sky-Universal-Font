@@ -12,7 +12,10 @@ html {
 }
 
 .hidden {
-    display: none;
+    /* display: none; */
+    width: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 @font-face {
@@ -21,11 +24,9 @@ html {
     src: url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.eot?#iefix') format('embedded-opentype'),
         url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.woff') format('woff'),
         url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
 }
 
+.futuraprobook,
 body.futuraprobook {
     font-family: 'NMSFuturaProBook';
 }
@@ -36,11 +37,9 @@ body.futuraprobook {
     src: url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.eot?#iefix') format('embedded-opentype'),
         url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.woff') format('woff'),
         url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
 }
 
+.geosans,
 body.geosans {
     font-family: 'NMSGeoSans';
 }
@@ -50,11 +49,9 @@ body.geosans {
 @font-face {
     font-family: 'NMS Alphabet';
     src: url('https://alphabet.nmscd.com/assets/font/nms-alphabet.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
 }
 
+.expalphabet,
 body.expalphabet {
     font-family: 'NMS Alphabet';
 }
@@ -66,11 +63,9 @@ body.expalphabet .no-exp-font {
 @font-face {
     font-family: 'OriginalNMSGeoSans';
     src: url('https://font.nmscd.com/assets/font/Original/geonms-webfont.woff') format('woff');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
 }
 
+.origgeosans,
 body.origgeosans {
     font-family: 'OriginalNMSGeoSans';
 }
