@@ -1,49 +1,60 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>NMS Universal Font - NMSCD</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		
-		<link rel="stylesheet" href="assets/css/bulma.min.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/bulma.dark.min.css">
 
-		<link rel="stylesheet" href="assets/css/highlight/default.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/highlight/atom-one-dark-reasonable.min.css">
-		
-		<link rel="stylesheet" href="assets/css/custom.css" />
-	
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="futuraprobook">
-		<section class="hero is-medium is-link">
-			<div class="hero-body has-text-centered">
-				<p class="title has-text-centered">
-				  No Man's Sky - Universal Font
-				</p>
-				<p class="subtitle has-text-centered">
-				  Now even better thanks to the improvements made by the NMSCD!
-				</p>
-				<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font/raw/master/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.ttf" class="button is-success is-light" target="_blank" rel="noopener noreferrer">Download FuturaProBook.ttf</a>
-				<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font/raw/master/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.ttf" class="button is-success is-light" target="_blank" rel="noopener noreferrer">Download GeoSans.ttf</a>
-				<br />
-				<br />
-				<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font" class="button is-dark is-rounded" target="_blank" rel="noopener noreferrer">View on Github</a>
-		  </div>
-		</section>
-		
-		<section class="section">
-			<h1 class="title">How to use the font</h1>
-			<div class="tabs">
-				<ul>
-					<li id="futuraprobook-tab" class="no-exp-font is-active"><a href="#" onclick="futuraprobookClick(event)">FuturaProBook</a></li>
-					<li id="geosans-tab" class="no-exp-font"><a href="#" onclick="geosansClick(event)">GeoSans</a></li>
-					<li id="expalphabet-tab"><a href="#" onclick="expalphabetClick(event)">Expedition Alphabet</a></li>
-				</ul>
-			</div>
-			<div id="futuraprobook-tab-content" class="tab-content">
-				<p>Add the following lines of CSS:</p>
-				<pre><code class="language-css">@font-face {
+<head>
+	<title>NMS Universal Font - NMSCD</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	<link rel="stylesheet" href="assets/css/bulma.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bulma.dark.min.css">
+
+	<link rel="stylesheet" href="assets/css/highlight/default.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/highlight/atom-one-dark-reasonable.min.css">
+
+	<link rel="stylesheet" href="assets/css/custom.css" />
+
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="futuraprobook">
+	<section class="hero is-medium is-link">
+		<div class="hero-body has-text-centered">
+			<p class="title has-text-centered">
+				No Man's Sky - Universal Font
+			</p>
+			<p class="subtitle has-text-centered">
+				Now even better thanks to the improvements made by the NMSCD!
+			</p>
+			<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font/raw/master/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.ttf"
+				class="button is-success is-light" target="_blank" rel="noopener noreferrer">Download
+				FuturaProBook.ttf</a>
+			<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font/raw/master/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.ttf"
+				class="button is-success is-light" target="_blank" rel="noopener noreferrer">Download GeoSans.ttf</a>
+			<br />
+			<br />
+			<a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font" class="button is-dark is-rounded"
+				target="_blank" rel="noopener noreferrer">View on Github</a>
+		</div>
+	</section>
+
+	<section class="section">
+		<h1 class="title">How to use the font</h1>
+		<div class="tabs">
+			<ul>
+				<li id="futuraprobook-tab" class="no-exp-font is-active"><a href="#"
+						onclick="futuraprobookClick(event)">FuturaProBook</a></li>
+				<li id="geosans-tab" class="no-exp-font"><a href="#" onclick="geosansClick(event)">GeoSans</a></li>
+				<li id="expalphabet-tab"><a href="#" onclick="expalphabetClick(event)">Expedition Alphabet</a></li>
+				<li id="origgeosans-tab"><a href="#" onclick="origgeosansClick(event)">Original GeoSans (from
+						nomanssky.com)</a></li>
+			</ul>
+		</div>
+		<div id="futuraprobook-tab-content" class="tab-content">
+			<p>Add the following lines of CSS:</p>
+			<pre><code class="language-css">@font-face {
     font-family: 'NMSFuturaProBook';
     src: url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.eot');
     src: url('https://font.nmscd.com/assets/font/NMSFuturaProBook_Kerned/Web-TT/NMSFuturaProBook_Kerned.eot?#iefix') format('embedded-opentype'),
@@ -58,10 +69,10 @@
 * {
     font-family: 'NMSFuturaProBook';
 }</code></pre>
-			</div>
-			<div id="geosans-tab-content" class="tab-content hidden">
-				<p>Add the following lines of CSS:</p>
-				<pre><code class="language-css">@font-face {
+		</div>
+		<div id="geosans-tab-content" class="tab-content hidden">
+			<p>Add the following lines of CSS:</p>
+			<pre><code class="language-css">@font-face {
     font-family: 'NMSGeoSans';
     src: url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.eot');
     src: url('https://font.nmscd.com/assets/font/NMSGeoSans_Kerned/Web-TT/NMSGeoSans_Kerned.eot?#iefix') format('embedded-opentype'),
@@ -76,38 +87,60 @@
 * {
     font-family: 'NMSGeoSans';
 }</code></pre>
-			</div>
-			<div id="expalphabet-tab-content" class="tab-content has-text-centered hidden">
-				<p class="subtitle no-exp-font">More info on how to use this font at <a href="https://alphabet.nmscd.com" target="_blank" rel="noopener noreferrer">alphabet.nmscd.com</a></p>
-			</div>
-		</section>
-		
-		
-		<section class="section">
-			<h1 class="title">Projects that use this font! 🥳</h1>
-			<h2 class="subtitle">These are projects that we know are using one or more of the fonts!</h2>
-			<div class="content">
-				<ul>
-					<li><a href="https://nmsassistant.com" target="_blank" rel="noopener noreferrer">Assistant for No Man's Sky</a></li>
-					<li><a href="https://apps.deuxcode.com/nms-expedition-checklist/" target="_blank" rel="noopener noreferrer">Expedition Checklist</a></li>
-					<li><a href="https://nmscd.com" target="_blank" rel="noopener noreferrer">NMSCD homepage</a></li>
-				<ul>
-			</div>
-			<!-- <div class="box"><a href="https://atlaspass.nmscd.com" target="_blank" rel="noopener noreferrer">NMSCD Atlas Pass builder</a></div> -->
-		</section>
-		
-		<footer class="footer">
-			<div class="content has-text-centered">
-				<img src="https://raw.githubusercontent.com/NMSCD/About/master/badge/green-ftb.svg" /><br /><br />
-				<p>
-				  <strong>Universal Font</strong> by <a href="https://nmscd.com" target="_blank" rel="noopener noreferrer">NMSCD</a>. The source code is licensed
-				  <a href="http://opensource.org/licenses/mit-license.php" target="_blank" rel="noopener noreferrer">MIT</a>. The Font
-				  is licensed <a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font/blob/master/LICENSE.txt" target="_blank" rel="noopener noreferrer">SIL Open Font License 1.1</a>.
-				</p>
-			</div>
-		</footer>
-	</body>
+		</div>
+		<div id="expalphabet-tab-content" class="tab-content has-text-centered hidden">
+			<p class="subtitle no-exp-font">More info on how to use this font at <a href="https://alphabet.nmscd.com"
+					target="_blank" rel="noopener noreferrer">alphabet.nmscd.com</a></p>
+		</div>
+		<div id="origgeosans-tab-content" class="tab-content hidden">
+			<p>Add the following lines of CSS:</p>
+			<pre><code class="language-css">@font-face {
+    font-family: 'NMSGeoSans';
+    src: url('https://font.nmscd.com/assets/font/Original/geonms-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 
-	<script defer src="assets/js/highlight.min.js"></script>
-	<script defer src="assets/js/custom.js"></script>
+/* Make everything use the NMSGeoSans font */
+* {
+    font-family: 'NMSGeoSans';
+}</code></pre>
+		</div>
+	</section>
+
+
+	<section class="section">
+		<h1 class="title">Projects that use this font! 🥳</h1>
+		<h2 class="subtitle">These are projects that we know are using one or more of the fonts!</h2>
+		<div class="content">
+			<ul>
+				<li><a href="https://nmsassistant.com" target="_blank" rel="noopener noreferrer">Assistant for No Man's
+						Sky</a></li>
+				<li><a href="https://apps.deuxcode.com/nms-expedition-checklist/" target="_blank"
+						rel="noopener noreferrer">Expedition Checklist</a></li>
+				<li><a href="https://nmscd.com" target="_blank" rel="noopener noreferrer">NMSCD homepage</a></li>
+				<ul>
+		</div>
+		<!-- <div class="box"><a href="https://atlaspass.nmscd.com" target="_blank" rel="noopener noreferrer">NMSCD Atlas Pass builder</a></div> -->
+	</section>
+
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<img src="https://raw.githubusercontent.com/NMSCD/About/master/badge/green-ftb.svg" /><br /><br />
+			<p>
+				<strong>Universal Font</strong> by <a href="https://nmscd.com" target="_blank"
+					rel="noopener noreferrer">NMSCD</a>. The source code is licensed
+				<a href="http://opensource.org/licenses/mit-license.php" target="_blank"
+					rel="noopener noreferrer">MIT</a>. The Font
+				is licensed <a href="https://github.com/NMSCD/No-Mans-Sky-Universal-Font/blob/master/LICENSE.txt"
+					target="_blank" rel="noopener noreferrer">SIL Open Font License 1.1</a>.
+			</p>
+		</div>
+	</footer>
+</body>
+
+<script defer src="assets/js/highlight.min.js"></script>
+<script defer src="assets/js/custom.js"></script>
+
 </html>

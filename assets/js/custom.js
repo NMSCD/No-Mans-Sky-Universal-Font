@@ -15,6 +15,11 @@ function expalphabetClick(e) {
 	tabClickCommon(e, 'expalphabet');
 }
 
+function origgeosansClick(e) {
+	e?.preventDefault?.();
+	tabClickCommon(e, 'origgeosans');
+}
+
 function tabClickCommon(e, prefix) {
 	setTabActive(prefix);
 	setTabContentVisible(prefix);

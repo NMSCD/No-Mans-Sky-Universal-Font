@@ -1,5 +1,5 @@
 html {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .noselect {
@@ -12,7 +12,7 @@ html {
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
 
 @font-face {
@@ -58,7 +58,19 @@ body.geosans {
 body.expalphabet {
     font-family: 'NMS Alphabet';
 }
-	
+
 body.expalphabet .no-exp-font {
     font-family: 'NMSFuturaProBook';
+}
+
+@font-face {
+    font-family: 'OriginalNMSGeoSans';
+    src: url('https://font.nmscd.com/assets/font/Original/geonms-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body.origgeosans {
+    font-family: 'OriginalNMSGeoSans';
 }
