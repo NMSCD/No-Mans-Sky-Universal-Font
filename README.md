@@ -1,4 +1,4 @@
-# No Man's Sky - Universal Font
+![header](./images/image_2023-07-12_221955387.png)
 
 As far as we have observed, there have been two fonts that carry the iconic NMS typographic style: the "NMSGeoSansLight" webfont in use on [the official NMS site](https://nomanssky.com), and an alternative version datamined from the game files that seems to be based on the Futura Pro font family. This project aims to bring to creators the fixed versions of the fonts.
 
